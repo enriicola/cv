@@ -28,6 +28,7 @@ tlmgr --usermode install curve
 - [ ] try "\include{italian/*}" for every main file of every language
 - [ ] add personal achievements section (e.g. waterpolo, marathons, mtb stuff, beachvolley stuff, weightlifting stuff ...)
 - [ ] [Should you put “Marathon Runner” on your Resume? 😅 - YouTube](https://www.youtube.com/shorts/4VjsrSEaMWg)
+- [ ] add white text (or miniscule text) for prompt injection ;)
 
 ## License
 
