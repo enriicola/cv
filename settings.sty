@@ -10,6 +10,8 @@
 \RequirePackage{silence}
 \WarningsOff[longtable]
 \WarningsOff[array]
+% Silence biblatex fallback warning when using BibTeX backend
+\WarningsOff[biblatex]
 
 \usepackage{ifxetex,ifluatex}
 \newif\ifxetexorluatex
@@ -43,7 +45,7 @@
 \definecolor{MarkerColour}{HTML}{B6073F}
 
 % If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
-\RequirePackage{biblatex}
+\RequirePackage[backend=bibtex]{biblatex}
 \RequirePackage{csquotes}
 
 \RequirePackage{tikz}
@@ -120,6 +122,7 @@
 \RequirePackage{pgffor}
 \newcommand{\mynames}[1]{\def\my@namelist{#1}}
 \newtoggle{boldname}
+\def\my@namelist{}
 \renewcommand*{\mkbibnamefamily}[1]{%
   \global\togglefalse{boldname}%
   \foreach \my@fname / \my@gname in \my@namelist {%

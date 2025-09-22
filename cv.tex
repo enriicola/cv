@@ -13,6 +13,8 @@
 % If you need to further customise your biblatex setup e.g. with \DeclareFieldFormat etc please add them here AFTER loading settings.sty. For example, to remove the default "[Online] Available:" prefix before URLs when using the IEEE style:
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
+\pdfstringdefDisableCommands{\def\texttt#1{#1}}
+
 %% Only needed if you want a Publication List
 \addbibresource{own-bib.bib}
 
@@ -63,21 +65,21 @@
 \leftheader{%
   {\LARGE\bfseries\sffamily Enrico Pezzano}
 
-  \makefield{\faEnvelope[regular]}{\href{mailto:enrico.pezzano@outlook.it}{\texttt{enrico.pezzano@proton.me}}}
-  \makefield{\faEnvelope[regular]}{\href{mailto:enrico.pezzano@outlook.it}{\texttt{enriicola@proton.me}}}
+  \makefield{\faEnvelope[regular]}{\href{mailto:enrico.pezzano@proton.me}{\texttt{enrico.pezzano@proton.me}}}
+  \makefield{\faEnvelope[regular]}{\href{mailto:enriicola@proton.me}{\texttt{enriicola@proton.me}}}
   \makefield{\faGithub}{\href{https://github.com/enriicola}{\texttt{@enriicola}}}
-  \makefield{\faLinkedin}{\href{https://www.linkedin.com/in/enrico-pezzano/}{\texttt{Enrico Pezzano}}}
   \makefield{\faInstagram}{\href{https://www.instagram.com/enriicola/}{\texttt{@enriicola}}}
-  \makefield{\faMobile}{\texttt{+39 3459325625}}
+  \makefield{\faLinkedin}{\href{https://www.linkedin.com/in/enrico-pezzano/}{\texttt{Enrico Pezzano}}}
+  \makefield{\faMobile}{\texttt{3459325625}}
 
   % You can use a tabular here if you want to line up the fields.
 }
 
 \rightheader{~}
-\begin{fullonly}
-\photo[r]{photo}
-\photoscale{0.13}
-\end{fullonly}
+% \begin{fullonly}
+% \photo[r]{photo}
+% \photoscale{0.13}
+% \end{fullonly}
 
 \title{Curriculum Vitae}
 
@@ -91,12 +93,12 @@
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
-% \input{publications}
+\input{publications}
 
 \makerubric{skills}
 \makerubric{certificazioni}
 
-\makerubric{tdp}
+% \makerubric{tdp}
 % \input{referee-full}
 
 \end{document}
