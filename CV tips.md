@@ -109,3 +109,17 @@ Giudichiamo i vostri CV con Giulia @GiuliaOffline (in English) (<https://www.you
 - "personalizing projects ..." what do you mean?
 - mr rip is fine with 2 pages, giulia is not
 - don't put pytorch in soft-skills if you have a job or education in machine learning/data science :)
+
+## Siti con challenge semplici/medie
+
+overthewire.com - Si inizia da cose molto molto semplici, non sono specificamente Web/Crypto/Binary.
+
+picoctf.org - Raccolta di CTF passate di pico.
+
+portswigger.net/web-security - Sono quelli che fanno burp quindi consigliato.
+
+pwn.college - Sito per imparare pwn e challenge associate. (Marco dice che fa cagare, David dice che fa semi cagare)
+
+cryptohack.org - Sito solo per crypto, entrate a vostro rischio e pericolo, ci sono challenge di tutte le difficoltà, per ora vi consigliamo di guardare solo quelle introduttive
+
+olicyber.it - sito delle Olimpiadi di cybersec, consigliato.
