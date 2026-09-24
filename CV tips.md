@@ -69,6 +69,7 @@ Giudichiamo i vostri CV con Giulia @GiuliaOffline (in English) (<https://www.you
 
 ## cv tips
 
+- https://www.instagram.com/reels/DdpXI9DOqoc/
 - don't put fluff -> quantify your experience, more measurable things, more numbers
 - don't use canva or stuff like that :)
 - use a clean layout, NO sidebars
